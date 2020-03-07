@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+    <bean id="accountService" class="cs544.exercise16_1.bank.service.AccountService">
+        <property name="accountDAO" ref="accountDAO"/>
+        <property name="currencyConverter" ref="currencyConverter"/>
+        <property name="jmsSender" ref="jmsSender"/>
+        <property name="logger" ref="logger"/>
+    </bean>
+    <bean id="accountDAO" class="cs544.exercise16_1.bank.dao.AccountDAO">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="currencyConverter" class="cs544.exercise16_1.bank.service.CurrencyConverter"></bean>
+    <bean id="jmsSender" class="cs544.exercise16_1.bank.jms.JMSSender"></bean>
+    <bean id="logger" class="cs544.exercise16_1.bank.logging.Logger"></bean>
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="hibernateProperties" ref="hibernateProperties"/>
+        <property name="packagesToScan" value="cs544.exercise16_1.bank.domain">
+        </property>
+    </bean>
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost/cs544"/>
+        <property name="username" value="cs544"/>
+        <property name="password" value="201511"/>
+    </bean>
+    <bean id="hibernateProperties" class="java.util.Properties"/>
+</beans>
