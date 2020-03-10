@@ -20,6 +20,7 @@ public class Book {
 		this.price = price;
 	}
 
+
 	public int getId() {
 		return id;
 	}
