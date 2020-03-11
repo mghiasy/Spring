@@ -3,6 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:mvc="http://www.springframework.org/schema/mvc"
+xmlns:sec="http://www.springframework.org/schema/security"
 	xsi:schemaLocation="
        http://www.springframework.org/schema/beans 
        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
@@ -13,7 +14,19 @@
        http://www.springframework.org/schema/mvc
        http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 
-
+<sec:http>
+	<sec:intercept-url pattern="addBook.html" access="ROLE_USER"/>
+	<sec:form-login/>
+	<sec:logout/>
+</sec:http>
+	<sec:authentication-manager>
+		<sec:authentication-provider>
+			<sec:user-service>
+				<sec:user name="user" password="123" authorities="ROLE_USER"/>
+				<sec:user name="admin" password="123" authorities="ROLE_ADMIN"/>
+			</sec:user-service>
+		</sec:authentication-provider>
+	</sec:authentication-manager>
 	<mvc:annotation-driven />
 	<context:component-scan base-package="cs544" />
 

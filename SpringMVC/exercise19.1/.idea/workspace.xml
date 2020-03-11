@@ -7,7 +7,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77fd91b-5dc2-48c9-aca5-c7d97c960734" name="Default Changelist" comment="" />
+    <list default="true" id="d77fd91b-5dc2-48c9-aca5-c7d97c960734" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exercise19_1_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/exercise19_1_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exercise19_1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/exercise19_1_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise19.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exercise19.1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/SpringMVC-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/SpringMVC-servlet.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
@@ -166,7 +174,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583807656782</updated>
       <workItem from="1583807660133" duration="8089000" />
-      <workItem from="1583898927662" duration="542000" />
+      <workItem from="1583898927662" duration="677000" />
+      <workItem from="1583901142142" duration="739000" />
     </task>
     <servers />
   </component>
