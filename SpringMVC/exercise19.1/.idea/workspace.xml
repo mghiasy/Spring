@@ -8,12 +8,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d77fd91b-5dc2-48c9-aca5-c7d97c960734" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/exercise19_1_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/exercise19_1_war.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/exercise19_1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/exercise19_1_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_0_CI_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise19.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exercise19.1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs544/exercise19/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs544/exercise19/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs544/sample/CarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs544/sample/CarDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/SpringMVC-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/SpringMVC-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cs544/exercise19/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs544/exercise19/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cs544/exercise19/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs544/exercise19/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cs544/sample/CarDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs544/sample/CarDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT/WEB-INF/SpringMVC-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT/WEB-INF/SpringMVC-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT/WEB-INF/classes/cs544/exercise19/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT/WEB-INF/classes/cs544/exercise19/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT/WEB-INF/classes/cs544/exercise19/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT/WEB-INF/classes/cs544/exercise19/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT/WEB-INF/classes/cs544/sample/CarDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT/WEB-INF/classes/cs544/sample/CarDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/exercise19.1-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +72,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -175,7 +194,8 @@
       <updated>1583807656782</updated>
       <workItem from="1583807660133" duration="8089000" />
       <workItem from="1583898927662" duration="677000" />
-      <workItem from="1583901142142" duration="739000" />
+      <workItem from="1583901142142" duration="2421000" />
+      <workItem from="1583903853698" duration="1015000" />
     </task>
     <servers />
   </component>
@@ -187,61 +207,61 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="164" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.820@0.23.1440.820" timestamp="1583807798896" />
-    <state width="930" height="329" key="GridCell.Tab.0.bottom" timestamp="1583815418295">
+    <state width="930" height="655" key="GridCell.Tab.0.bottom" timestamp="1583905369000">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583815418295" />
-    <state width="930" height="329" key="GridCell.Tab.0.center" timestamp="1583815418295">
+    <state width="930" height="655" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583905369000" />
+    <state width="930" height="655" key="GridCell.Tab.0.center" timestamp="1583905369000">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1583815418295" />
-    <state width="930" height="329" key="GridCell.Tab.0.left" timestamp="1583815418294">
+    <state width="930" height="655" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1583905369000" />
+    <state width="930" height="655" key="GridCell.Tab.0.left" timestamp="1583905369000">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1583815418294" />
-    <state width="930" height="329" key="GridCell.Tab.0.right" timestamp="1583815418295">
+    <state width="930" height="655" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1583905369000" />
+    <state width="930" height="655" key="GridCell.Tab.0.right" timestamp="1583905369000">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1583815418295" />
-    <state width="930" height="329" key="GridCell.Tab.1.bottom" timestamp="1583815418152">
+    <state width="930" height="655" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1583905369000" />
+    <state width="930" height="655" key="GridCell.Tab.1.bottom" timestamp="1583905369001">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583815418152" />
-    <state width="930" height="329" key="GridCell.Tab.1.center" timestamp="1583815418151">
+    <state width="930" height="655" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583905369001" />
+    <state width="930" height="655" key="GridCell.Tab.1.center" timestamp="1583905369001">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1583815418151" />
-    <state width="930" height="329" key="GridCell.Tab.1.left" timestamp="1583815418150">
+    <state width="930" height="655" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1583905369001" />
+    <state width="930" height="655" key="GridCell.Tab.1.left" timestamp="1583905369001">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1583815418150" />
-    <state width="930" height="329" key="GridCell.Tab.1.right" timestamp="1583815418151">
+    <state width="930" height="655" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1583905369001" />
+    <state width="930" height="655" key="GridCell.Tab.1.right" timestamp="1583905369001">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1583815418151" />
-    <state width="930" height="329" key="GridCell.Tab.2.bottom" timestamp="1583815418152">
+    <state width="930" height="655" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1583905369001" />
+    <state width="930" height="655" key="GridCell.Tab.2.bottom" timestamp="1583905369001">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.2.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583815418152" />
-    <state width="930" height="329" key="GridCell.Tab.2.center" timestamp="1583815418152">
+    <state width="930" height="655" key="GridCell.Tab.2.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583905369001" />
+    <state width="930" height="655" key="GridCell.Tab.2.center" timestamp="1583905369000">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.2.center/0.23.1440.820@0.23.1440.820" timestamp="1583815418152" />
-    <state width="930" height="329" key="GridCell.Tab.2.left" timestamp="1583815418152">
+    <state width="930" height="655" key="GridCell.Tab.2.center/0.23.1440.820@0.23.1440.820" timestamp="1583905369000" />
+    <state width="930" height="655" key="GridCell.Tab.2.left" timestamp="1583905369000">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.2.left/0.23.1440.820@0.23.1440.820" timestamp="1583815418152" />
-    <state width="930" height="329" key="GridCell.Tab.2.right" timestamp="1583815418152">
+    <state width="930" height="655" key="GridCell.Tab.2.left/0.23.1440.820@0.23.1440.820" timestamp="1583905369000" />
+    <state width="930" height="655" key="GridCell.Tab.2.right" timestamp="1583905369000">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="930" height="329" key="GridCell.Tab.2.right/0.23.1440.820@0.23.1440.820" timestamp="1583815418152" />
+    <state width="930" height="655" key="GridCell.Tab.2.right/0.23.1440.820@0.23.1440.820" timestamp="1583905369000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cs544/exercise19/BookDao.java</url>
-          <line>25</line>
+          <line>27</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

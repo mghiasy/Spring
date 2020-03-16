@@ -1,5 +1,7 @@
 package cs544.sample;
 
+import org.springframework.security.access.annotation.Secured;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -20,6 +22,7 @@ public class CarDao implements ICarDao {
 	}
 	
 	@Override
+	@Secured("hasAuthority(ROLE_ADMIN)")
 	public void add(Car car) {
 		car.setId(idCount);
 		cars.put(idCount, car);
@@ -38,11 +41,13 @@ public class CarDao implements ICarDao {
 	}
 	
 	@Override
+	@Secured("hasAuthority(ROLE_ADMIN)")
 	public void update(int carId, Car car) {
 		cars.put(carId, car);
 	}
 	
 	@Override
+	@Secured("hasAuthority(ROLE_ADMIN)")
 	public void delete(int carId) {
 		Car removed = cars.remove(carId);
 		if (removed == null) {
