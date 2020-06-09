@@ -1,0 +1,12 @@
+<persistence>
+    <persistence-unit name="OrderManagement">
+        <description>This unit manages orders and customers.
+            It does not rely on any vendor-specific features and can
+            therefore be deployed to any persistence provider.
+        </description>
+        <jta-data-source>jdbc/MyOrderDB</jta-data-source>
+        <jar-file>MyOrderApp.jar</jar-file>
+        <class>com.widgets.Order</class>
+        <class>com.widgets.Customer</class>
+    </persistence-unit>
+</persistence>
