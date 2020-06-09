@@ -32,12 +32,11 @@
 							<p>Age -         ${employee.age}</p>
 							<p>Title -       ${employee.title} </p>
 							<p>NUMBER -      ${employee.employeeNumber} </p>
+<%-- 							<label>Address----</label>
+							<p>Stree :       ${employee.address.city}</p> --%>
+							
 							<p>
-								<!--a
-									href=" <spring:url value="/products/product?id=${product.productId}" /> "
-									class="btn btn-primary"> <span
-									class="glyphicon-info-sign glyphicon" /></span> Details
-								</a-->
+
 							</p>
 
 						</div>
