@@ -3,6 +3,7 @@ import java.util.List;
 
 import javax.persistence.*;
 
+@Entity
 public class Person {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -2,7 +2,7 @@ package One2Many_Bi;
 import javax.persistence.*;
 
 //One2 Many Bi=> one2Many , Many2One => should be at the same time
-
+@Entity
 public class Address {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)

@@ -2,7 +2,7 @@ package One2Many_Uni;
 import javax.persistence.*;
 
 //One2 Many uni => by default is JoinTable
-
+@Entity
 public class Address {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)

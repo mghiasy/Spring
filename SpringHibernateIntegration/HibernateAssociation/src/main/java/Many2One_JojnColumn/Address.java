@@ -1,6 +1,7 @@
 package Many2One_JojnColumn;
 import javax.persistence.*;
 
+@Entity
 public class Address {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)

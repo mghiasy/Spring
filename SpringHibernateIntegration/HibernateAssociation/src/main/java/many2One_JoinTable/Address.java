@@ -2,7 +2,7 @@ package many2One_JoinTable;
 import javax.persistence.*;
 
 //Join table is used for cases that one side (person) can be null able
-
+@Entity
 public class Address {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)

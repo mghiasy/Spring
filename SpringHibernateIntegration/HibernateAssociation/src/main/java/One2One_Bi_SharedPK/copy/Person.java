@@ -1,8 +1,8 @@
 package One2One_Bi_SharedPK.copy;
-import java.util.List;
 
 import javax.persistence.*;
 
+@Entity
 public class Person {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
