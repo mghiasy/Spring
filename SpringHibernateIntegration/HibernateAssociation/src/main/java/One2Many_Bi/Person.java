@@ -13,6 +13,8 @@ public class Person {
 	private String name;
 	
 	//----2 way relation-----
+	//@@@@@@@@@@@@@@@@@
+	//One2One is bydefault is lazy => for change it fetchType=eager
 	@OneToMany(mappedBy = "person")
 	
 	//without mappedby ======

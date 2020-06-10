@@ -19,7 +19,7 @@ public class Person {
 	//TableName by default = classname1_Classname2
 	//columns by default = className(Person)_Id and link field (cars)_Id
 	@ManyToMany
-	//can add @Jointable to customise it 
+	//can add @Jointable to customise it  
 	private List<Car> cars;
 
 	
